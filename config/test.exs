@@ -12,8 +12,8 @@ config :logger, level: :warn
 # Configure your database
 config :ex_review, ExReview.Repo,
   adapter: Ecto.Adapters.Postgres,
-  username: "postgres",
-  password: "postgres",
+  username: "davidbrusius",
+  password: "",
   database: "ex_review_test",
   hostname: "localhost",
   pool: Ecto.Adapters.SQL.Sandbox
