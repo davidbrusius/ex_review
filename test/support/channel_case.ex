@@ -25,7 +25,6 @@ defmodule ExReviewWeb.ChannelCase do
     end
   end
 
-
   setup tags do
     :ok = Ecto.Adapters.SQL.Sandbox.checkout(ExReview.Repo)
     unless tags[:async] do
@@ -33,5 +32,4 @@ defmodule ExReviewWeb.ChannelCase do
     end
     :ok
   end
-
 end
