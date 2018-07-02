@@ -26,7 +26,6 @@ defmodule ExReviewWeb.ConnCase do
     end
   end
 
-
   setup tags do
     :ok = Ecto.Adapters.SQL.Sandbox.checkout(ExReview.Repo)
     unless tags[:async] do
